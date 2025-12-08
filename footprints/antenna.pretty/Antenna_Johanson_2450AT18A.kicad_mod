@@ -1,0 +1,155 @@
+(footprint "Antenna_Johanson_2450AT18A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5adffaa-e23f-4525-bc33-cbda8b90367d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Antenna_Johanson_2450AT18A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bad6794a-2075-430d-943c-53b83ea20e01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f88eb2-dd9e-428a-b8b3-0efeeb8f0b9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acedc9b3-63e2-408c-89e1-66c0efb81129")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1)
+		(end -2.3 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ad01642-4ea0-4dca-899f-81dc7cd0e022")
+	)
+	(fp_line
+		(start -2.3 1)
+		(end 1.475 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ae65985-ad35-4c17-b336-2e781a84035a")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end -2.3 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f0ef9f-1e05-417a-b78e-4d1c781e0c66")
+	)
+	(fp_rect
+		(start -1.1 -0.1)
+		(end -0.3 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c98e38c9-199c-46a9-b43b-4936b5f1c35c")
+	)
+	(fp_rect
+		(start -2.55 -1.2)
+		(end 2.25 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e53656b3-8ad0-4e28-878e-eec51efd7442")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.4) (xy -1.2 -0.8) (xy 1.6 -0.8) (xy 1.6 0.8) (xy -1.6 0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a7f75674-7a93-4543-ab87-b5e6456c121f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a2dca53f-b492-4a8d-b60f-318dd0308067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b73fe88f-5b17-4142-b893-d219653668d0")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10b14c43-b7a9-45e6-9921-54f5d30a6e02")
+	)
+	(embedded_fonts no)
+	(model "${ORAONE_LIBRARY}/3d_models/Antenna_2450AT18.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

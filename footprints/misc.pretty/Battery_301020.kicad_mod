@@ -1,0 +1,132 @@
+(footprint "Battery_301020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae8f556f-d615-44a1-bfb8-3e63c3c845c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_301020"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "763b10b7-a748-4158-be7c-870487509800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a495849-e268-422e-a3f4-8574b5c45fa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2d867ab-5398-4b8b-8f7c-8a5ea44842f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.1 -5.1)
+		(end 10.1 5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "87cb8379-82a0-4db9-b57e-4dccde150d62")
+	)
+	(fp_rect
+		(start -10.2 -5.2)
+		(end 10.2 5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d3933e74-c252-4877-b85d-fca1d1817dfb")
+	)
+	(fp_rect
+		(start -10 -5)
+		(end 10 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1af26ea2-3a51-40af-981e-f105dc36cdda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c27a36b7-b6ae-4e30-a546-c42f378a0e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "301020\n3.7V - 70mAh"
+		(start -9.6 -2.65)
+		(end 9.6 2.65)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "e85ce60b-2135-4227-bd61-a5fbe0da0993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(border no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+	)
+	(embedded_fonts no)
+	(model "${ORAONE_LIBRARY}/3d_models/Battery_301020.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

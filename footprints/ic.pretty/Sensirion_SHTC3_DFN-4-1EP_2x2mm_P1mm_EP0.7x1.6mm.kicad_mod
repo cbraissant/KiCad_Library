@@ -1,0 +1,215 @@
+(footprint "Sensirion_SHTC3_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN, 4 Pin (https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf)")
+	(tags "Sensirion DFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "23aa87a6-0cc9-48b6-a2f1-73d7608b986b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Sensirion_SHTC3_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "f8c8870a-1ff0-4246-b5c1-01155dbb2814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61b8c61c-e5d1-4d55-b862-91c05eae122a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aa3cf6e-a6ba-490c-a15f-9593d643dabf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 1.05)
+		(end 0.8 1.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc71db8-8b4b-41ad-8f96-3ad34cff2612")
+	)
+	(fp_line
+		(start -0.5 -1.05)
+		(end 0.8 -1.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ce31445-51aa-435b-aa88-012956ced975")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.95) (xy -1.28 -0.95) (xy -1 -1.23) (xy -1 -0.95)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dc469111-2a73-44b2-8d31-6b8a6bb91c47")
+	)
+	(fp_rect
+		(start -1.35 -1.15)
+		(end 1.35 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a35c64a2-11f8-4f94-834b-f132cee4f9cf")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86fc6f7b-42d4-4b1a-a041-d1412c8fea8a")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c372028-e935-43d8-bfb4-b0395a7e0c0e")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03bebe97-b927-43b5-a5c2-3a53748014ae")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8978ecc5-65ec-47a2-af5e-e854c3b34a79")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02316c11-7d62-4cce-933f-6876475c86c9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "74d04dfa-88a9-474d-800c-6dd2c535c3e5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.5 1.4)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e216a00c-31c7-45f6-8202-d14cfcb576b8")
+	)
+	(pad "1" smd roundrect
+		(at -0.925 -0.5)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a7d66c76-ade6-4524-b559-379a47016e04")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 0.5)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "67b399a8-7e9c-4fce-8b1a-0b78b2c93641")
+	)
+	(pad "3" smd roundrect
+		(at 0.925 0.5)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2d83b70b-1937-4147-82b7-c77bbc3f92a4")
+	)
+	(pad "4" smd roundrect
+		(at 0.925 -0.5)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "81d7e76c-c1d8-4cfd-9c45-c1ff67edf5ea")
+	)
+	(pad "5" smd roundrect
+		(at 0 0)
+		(size 0.7 1.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "27d05756-ffc7-45ae-ad05-2a41073a38b2")
+	)
+	(embedded_fonts no)
+	(model "${ORAONE_LIBRARY}/3d_models/SHTC3.stp"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -180)
+		)
+	)
+)

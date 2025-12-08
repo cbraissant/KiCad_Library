@@ -1,0 +1,179 @@
+(footprint "MSM261DGT_LGA-6_4x2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LGA, 8 Pin (https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD01GLGEAG_C558837.pdf#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -3.95 0)
+		(layer "F.SilkS")
+		(uuid "2894b842-7def-408a-bf8b-2c8130c1d60e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSM261DGT_LGA-6_4x2mm"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "c6541135-90fa-49cc-891e-146343d77fde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf216bd1-ed8a-4bc2-b4ee-595346958b18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e74164fd-e129-4e8d-9597-5bccfca1548b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.05 -1.45)
+		(end -1.05 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddd59f2c-e1e4-4a7a-936f-64cf1c2c2e90")
+	)
+	(fp_line
+		(start -0.45 -2.05)
+		(end -1.05 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7773875-f70d-42c9-af9c-168f628be020")
+	)
+	(fp_rect
+		(start -1.1 -2.1)
+		(end 1.1 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f5acf842-8b1a-4868-a41d-6f842c101f22")
+	)
+	(fp_rect
+		(start -1 -2)
+		(end 1 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "30e20593-277e-4c5f-9a5d-17a1887cdc7e")
+	)
+	(fp_circle
+		(center 0 1.1)
+		(end 0.325 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a07353e-9943-4242-ae10-11aec4820903")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "48b27865-44fd-497e-a8d1-8b98eac5e966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.6 -0.94 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d7ef9b8a-6462-4855-b1c9-347c0096f167")
+	)
+	(pad "2" smd roundrect
+		(at -0.6 0 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4acb8680-4489-4a25-a0df-03a67ac94266")
+	)
+	(pad "3" smd roundrect
+		(at -0.6 0.94 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "12820f0d-a862-420f-a858-bb37fd83a758")
+	)
+	(pad "4" smd roundrect
+		(at 0.6 0.94 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2b88609a-0321-42bf-aabf-9b982ce050c0")
+	)
+	(pad "5" smd roundrect
+		(at 0.6 0 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4c307c89-a599-41b5-b931-8b5520452f1c")
+	)
+	(pad "6" smd roundrect
+		(at 0.6 -0.94 180)
+		(size 0.7 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "949625d3-9e12-41aa-9db4-b7fd007e5b13")
+	)
+	(embedded_fonts no)
+	(model "${ORAONE_LIBRARY}/3d_models/MSM261DGT003.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

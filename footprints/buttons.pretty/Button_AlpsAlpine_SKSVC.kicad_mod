@@ -1,0 +1,162 @@
+(footprint "Button_AlpsAlpine_SKSVC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.72 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e6f5d3b4-b7a3-44fd-98d0-4972a7e43f6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button_AlpsAlpine_SKSVC"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7d63379-d046-41a0-90c1-9465c908032c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f0b48c9-58cf-46ca-a85c-3cdfb87c5fb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "825cb877-b66a-4824-9406-b92e70c20ec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -1.05)
+		(end 0.95 -1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e96abbc0-b242-4c30-a628-325a523c560b")
+	)
+	(fp_line
+		(start 0.95 1.05)
+		(end -1 1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7511c6ad-baf3-4896-b0a3-2b8fd022590d")
+	)
+	(fp_rect
+		(start -1.65 -1.2)
+		(end 1.65 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b8abcccf-55de-46fe-ba8e-8483b747fa27")
+	)
+	(fp_rect
+		(start -1.5 -0.95)
+		(end 1.5 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d1a4aa5-5387-469a-87a6-e393a508cb5b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5dd7b023-09b4-4433-a429-3858c5ab0d32")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99da61f8-6310-4c13-bc12-4d75d1f5f4d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.275 -0.58 180)
+		(size 0.55 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6b71f2b2-0a75-4cf9-be10-622129819b51")
+	)
+	(pad "2" smd rect
+		(at -1.275 0.58 180)
+		(size 0.55 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1fe60e43-05d5-4516-84fa-dc2ba6dd593f")
+	)
+	(pad "3" smd rect
+		(at 1.275 -0.58 180)
+		(size 0.55 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "6819fecc-8e24-4ef5-92fd-d1b74a9bd471")
+	)
+	(pad "4" smd rect
+		(at 1.275 0.58 180)
+		(size 0.55 0.57)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a9c7fe9e-b2f1-4317-a98d-8fb4256bdd98")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIBRARY_DIR}/Button_AlpsAlpine_SKSV.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

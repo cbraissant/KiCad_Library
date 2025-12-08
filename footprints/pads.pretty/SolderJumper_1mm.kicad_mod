@@ -1,0 +1,144 @@
+(footprint "SolderJumper_1mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "7e665f20-2274-46c5-b843-429dec3d10e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper_1mm"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "47090aa3-9309-4fe1-8b8d-3a99dfbe88f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09f04004-e42d-4901-8654-2017adc86ec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "174271f2-71a3-44be-a2d2-154173802b94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy 0.1 -0.1) (xy -0.1 -0.1) (xy -0.1 0.1) (xy 0.1 0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "f9ae7e53-a431-4713-945d-f129383ab90e")
+	)
+	(fp_rect
+		(start -0.1 -0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ac23f5fb-85d4-4513-afe3-6cf955101da9")
+	)
+	(fp_rect
+		(start -0.65 -0.55)
+		(end 0.65 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ed272a45-1081-4c77-8c3f-4fac97c4456f")
+	)
+	(pad "1" smd custom
+		(at -0.25 0)
+		(size 0.2 0.55)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.15 0.5)
+						(mid -0.35 0)
+						(end 0.15 -0.5)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c24b679f-eba3-4689-a2dc-a4a26c45ed70")
+	)
+	(pad "2" smd custom
+		(at 0.25 0 180)
+		(size 0.2 0.55)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.15 0.5)
+						(mid -0.35 0)
+						(end 0.15 -0.5)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "71195048-fe4e-4c8f-ac51-f9095f17f54a")
+	)
+	(embedded_fonts no)
+)

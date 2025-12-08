@@ -1,0 +1,220 @@
+(footprint "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf")
+	(tags "BGA 4 0.4 PicoStar")
+	(property "Reference" "REF**"
+		(at -0.2 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "7448024e-bcb2-421f-b1cf-c9439525150f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
+		(at 0 1.379 0)
+		(layer "F.Fab")
+		(uuid "32e4429b-a72e-4b3d-a26f-618403c5d617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a66866d8-0f7d-47cf-a7c4-e9374f4f1802")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5130e724-386d-4a1a-b9b2-f9d08b01b8c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -0.525 0.525)
+		(end -0.525 -0.3425)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc3ecec5-1831-4b81-8107-e7ffb5189512")
+	)
+	(fp_line
+		(start -0.3425 -0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03ee3d9f-b176-43e0-8d2e-5af02d69d0ea")
+	)
+	(fp_line
+		(start 0.525 -0.525)
+		(end 0.525 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a26d712d-a812-4f21-b29e-e47afb909553")
+	)
+	(fp_line
+		(start 0.525 0.525)
+		(end -0.525 0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7ac718f-872a-4966-b186-1ee973d30ccb")
+	)
+	(fp_poly
+		(pts
+			(xy -0.525 -0.525) (xy -0.85 -0.525) (xy -0.525 -0.85) (xy -0.525 -0.525)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8a6bebc7-f4aa-49e0-853b-7e7b7e193ad1")
+	)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a02ea9af-01c8-491d-8e19-8270b6eb3544")
+	)
+	(fp_line
+		(start -0.379 -0.1895)
+		(end -0.1895 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "becc04f9-af11-446d-91b7-283d2fdea8d9")
+	)
+	(fp_line
+		(start -0.379 0.379)
+		(end -0.379 -0.1895)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f49bb2f9-4439-42fd-b5c1-ab5d15bff6bd")
+	)
+	(fp_line
+		(start -0.1895 -0.379)
+		(end 0.379 -0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a89f58da-55fc-4b35-af96-4c827ace65b7")
+	)
+	(fp_line
+		(start 0.379 -0.379)
+		(end 0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5cb6e23-304c-44b9-9457-13a968d7ce0d")
+	)
+	(fp_line
+		(start 0.379 0.379)
+		(end -0.379 0.379)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7481d6e2-f41d-4efc-a816-496ccf60f47b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8fabfdce-d88a-42db-a213-98f8fe816e8c")
+		(effects
+			(font
+				(size 0.18 0.18)
+				(thickness 0.027)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc59fe23-82f8-48dc-838e-b1a768540c5b")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e58332c-f908-437b-b1c0-d8872d353b63")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e26d1d5-0fb4-48b0-88e5-1d8b972208b0")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0.2)
+		(size 0.25 0.25)
+		(property pad_prop_bga)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc957e05-175b-4fdd-bb17-10a6af54a0b5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

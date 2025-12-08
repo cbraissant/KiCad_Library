@@ -1,0 +1,222 @@
+(footprint "Package_SOT-883"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-883, https://assets.nexperia.com/documents/outline-drawing/SOT883.pdf")
+	(tags "SOT-883")
+	(property "Reference" "Q1"
+		(at 0 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "958c556c-0b89-4b9a-89fc-19c99a0e0e15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NX7002BK"
+		(at 0 1.905 0)
+		(layer "F.Fab")
+		(uuid "42e1babf-9657-4b2a-8206-8446c7e8651d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX7002BKM.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "956a82c9-a2fa-4e15-bedf-89dc756d107b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.330A Id, 60V Vds, N-Channel MOSFET, SOT-883"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "378bbc49-658f-47d8-abc0-3a9ed6d71e04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 -0.45)
+		(end 0 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6e3e3ee-05b9-4fa3-9bd0-6780e4809b24")
+	)
+	(fp_line
+		(start -0.65 0.45)
+		(end -0.65 -0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bad6d1d6-3fce-4621-b0e4-e223ab929618")
+	)
+	(fp_line
+		(start 0 0.45)
+		(end -0.65 0.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "140f4a33-2494-4326-83b5-7bff4b932f24")
+	)
+	(fp_line
+		(start -0.7 -0.5)
+		(end 0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffd77cf0-f6d9-4657-a10c-274a9597c28c")
+	)
+	(fp_line
+		(start -0.7 0.5)
+		(end -0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fed7423-f446-4f06-9208-a6ae4e33be25")
+	)
+	(fp_line
+		(start 0.7 -0.5)
+		(end 0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12bb8f39-903e-47f7-950c-740109bd05b8")
+	)
+	(fp_line
+		(start 0.7 0.5)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be01ca2d-3afd-44bd-89d2-364b718d4e10")
+	)
+	(fp_line
+		(start -0.51 0.31)
+		(end -0.51 -0.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85cb92a4-5dbd-4f0c-85a5-c887046d2565")
+	)
+	(fp_line
+		(start -0.31 -0.31)
+		(end -0.51 -0.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf76dc22-b6a6-41ec-ac06-e430847122e1")
+	)
+	(fp_line
+		(start -0.31 -0.31)
+		(end 0.51 -0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a1fc441-b197-4521-a535-5be80711cc09")
+	)
+	(fp_line
+		(start 0.51 -0.31)
+		(end 0.51 0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73dee6c2-3092-4f10-85e9-9d76f6171274")
+	)
+	(fp_line
+		(start 0.51 0.31)
+		(end -0.51 0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b743240e-de27-449e-8c93-7827f9af7a7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb99696f-043c-4740-8eb9-6d44705326ae")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 -0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "53ceba12-d3f3-4a88-b006-7c98360229ce")
+	)
+	(pad "2" smd roundrect
+		(at -0.35 0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "c3b04ed6-dee6-4550-bde2-982a9cb28a56")
+	)
+	(pad "3" smd roundrect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "8a03af98-f487-41e7-8013-5996166f5656")
+	)
+	(embedded_fonts no)
+	(model "${CAPNOMAD_LIBRARY}/3d_models/SOT-883.step"
+		(offset
+			(xyz 0.75 -0.4 0.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+)

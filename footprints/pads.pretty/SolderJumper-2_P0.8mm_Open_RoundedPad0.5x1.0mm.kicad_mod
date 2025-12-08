@@ -1,0 +1,103 @@
+(footprint "SolderJumper-2_P0.8mm_Open_RoundedPad0.5x1.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "7e665f20-2274-46c5-b843-429dec3d10e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2_P0.8mm_Open_RoundedPad0.5x1.0mm"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "47090aa3-9309-4fe1-8b8d-3a99dfbe88f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09f04004-e42d-4901-8654-2017adc86ec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "174271f2-71a3-44be-a2d2-154173802b94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(net_tie_pad_groups "1, 2")
+	(fp_rect
+		(start -0.15 -0.5)
+		(end 0.15 0.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ac23f5fb-85d4-4513-afe3-6cf955101da9")
+	)
+	(fp_rect
+		(start -0.7 -0.55)
+		(end 0.7 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be0ab270-97a0-4ca9-bb38-556c839ab34b")
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(thermal_bridge_angle 0)
+		(uuid "ba9259e7-b105-4687-b822-6dd74efd0291")
+	)
+	(pad "2" smd roundrect
+		(at 0.4 0)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_left bottom_left)
+		(zone_connect 1)
+		(thermal_bridge_angle 0)
+		(uuid "9a2b9892-12b6-4e9c-9f2c-6cdc36662e41")
+	)
+	(embedded_fonts no)
+)
