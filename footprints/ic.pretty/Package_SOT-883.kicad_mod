@@ -208,7 +208,7 @@
 		(uuid "8a03af98-f487-41e7-8013-5996166f5656")
 	)
 	(embedded_fonts no)
-	(model "${CAPNOMAD_LIBRARY}/3d_models/SOT-883.step"
+	(model "${GLOBAL_LIBRARY}/3d_models/SOT-883.step"
 		(offset
 			(xyz 0.75 -0.4 0.55)
 		)
