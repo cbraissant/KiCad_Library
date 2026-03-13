@@ -2139,6 +2139,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "Q_PMOS"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 			(hide yes)

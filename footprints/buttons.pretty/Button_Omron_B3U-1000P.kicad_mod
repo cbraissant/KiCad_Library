@@ -1,0 +1,175 @@
+(footprint "Button_Omron_B3U-1000P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72f9ed0c-c23f-4aed-8ed4-89a79152ce2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button_Omron_B3U-1000P"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74217137-7c2a-4e7e-ba88-c1ea04c6284d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "441b4cbe-96cb-49d1-9d22-45616652c2df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0768196b-8021-4bfa-a091-b26658f14469")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.4)
+		(end 1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f2d155-b07b-463a-8704-b8b32f25faea")
+	)
+	(fp_line
+		(start -1.8 -1.1)
+		(end -1.8 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b863e6d-8c98-4dba-bf15-21f674438235")
+	)
+	(fp_line
+		(start -1.8 1)
+		(end -1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7e39e02-a62f-416b-840f-fa40e16a2463")
+	)
+	(fp_line
+		(start -1.8 1.4)
+		(end 1.8 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1f3c377-1646-427f-bb73-36e806d4ade9")
+	)
+	(fp_line
+		(start 1.8 -1.4)
+		(end 1.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e34a0850-f58b-437b-88da-fb243498e42a")
+	)
+	(fp_line
+		(start 1.8 1.4)
+		(end 1.8 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d99827c-fbdf-4fdd-a442-31b67c3cace9")
+	)
+	(fp_rect
+		(start -2.3 -1.5)
+		(end 2.3 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e880570-cb5c-48c9-b4d8-a20c4f353962")
+	)
+	(fp_rect
+		(start -1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57375de3-b3ed-4aaf-ac63-22ed4e8cbea3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27a7a4b1-63b5-425e-befa-fad9ee40b99a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "aeaf9916-a3e4-4850-927e-f410782e87d4")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "53b52a78-da1e-42e7-93fa-c44a697409a9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIBRARY_DIR}/B3U-1000P.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

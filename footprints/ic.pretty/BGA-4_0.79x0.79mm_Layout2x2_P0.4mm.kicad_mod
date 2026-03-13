@@ -53,52 +53,12 @@
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
-	(fp_line
-		(start -0.525 0.525)
-		(end -0.525 -0.3425)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cc3ecec5-1831-4b81-8107-e7ffb5189512")
-	)
-	(fp_line
-		(start -0.3425 -0.525)
-		(end 0.525 -0.525)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "03ee3d9f-b176-43e0-8d2e-5af02d69d0ea")
-	)
-	(fp_line
-		(start 0.525 -0.525)
-		(end 0.525 0.525)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a26d712d-a812-4f21-b29e-e47afb909553")
-	)
-	(fp_line
-		(start 0.525 0.525)
-		(end -0.525 0.525)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b7ac718f-872a-4966-b186-1ee973d30ccb")
-	)
 	(fp_poly
 		(pts
-			(xy -0.525 -0.525) (xy -0.85 -0.525) (xy -0.525 -0.85) (xy -0.525 -0.525)
+			(xy -0.45 -0.45) (xy -0.7 -0.45) (xy -0.45 -0.7) (xy -0.45 -0.45)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
@@ -106,8 +66,8 @@
 		(uuid "8a6bebc7-f4aa-49e0-853b-7e7b7e193ad1")
 	)
 	(fp_rect
-		(start -0.8 -0.8)
-		(end 0.8 0.8)
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -206,7 +166,7 @@
 		(uuid "bc957e05-175b-4fdd-bb17-10a6af54a0b5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm.wrl"
+	(model "${GLOBAL_LIBRARY}/3d_models/TCK107AG.stp"
 		(offset
 			(xyz 0 0 0)
 		)

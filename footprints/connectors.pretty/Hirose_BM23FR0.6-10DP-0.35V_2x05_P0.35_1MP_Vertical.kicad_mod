@@ -55,36 +55,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.38 -0.9)
-		(end -1.38 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4d5d8500-d354-4e6d-bae5-dc55a29c314a")
-	)
-	(fp_line
-		(start -1.16 -0.7)
-		(end -1.38 -0.9)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4873d576-4aff-4357-9cfc-e94d1e0a2344")
-	)
-	(fp_line
-		(start -1.16 -0.7)
-		(end -1.38 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f7d8db3e-31a9-42e1-b918-427be08327a9")
-	)
-	(fp_line
 		(start -0.8 -1.955)
 		(end -0.8 -1.845)
 		(stroke
@@ -143,6 +113,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "7eeec6cb-b157-459c-b435-f0b1357b7b0c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.35 -0.85) (xy -1.15 -0.7) (xy -1.35 -0.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e5925245-2b15-41ba-bacd-df09192bd422")
 	)
 	(fp_line
 		(start -1.4 -2.225)
@@ -366,8 +348,8 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
-			(vias allowed)
-			(pads not_allowed)
+			(vias not_allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints allowed)
 		)
@@ -398,8 +380,8 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
-			(vias allowed)
-			(pads not_allowed)
+			(vias not_allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints allowed)
 		)
