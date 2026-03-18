@@ -1,4 +1,4 @@
-(footprint "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
+(footprint "Texas_DSBGA-4_0.66x0.66mm_Layout2x2_P0.35mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
+	(property "Value" "Texas_DSBGA-4_0.66x0.66mm_Layout2x2_P0.35mm"
 		(at 0 1.379 0)
 		(layer "F.Fab")
 		(uuid "32e4429b-a72e-4b3d-a26f-618403c5d617")
@@ -53,20 +53,61 @@
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
-	(fp_circle
-		(center -0.45 -0.45)
-		(end -0.45 -0.55)
+	(fp_line
+		(start -0.44 0.44)
+		(end -0.44 -0.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc3ecec5-1831-4b81-8107-e7ffb5189512")
+	)
+	(fp_line
+		(start -0.14 -0.44)
+		(end 0.44 -0.44)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03ee3d9f-b176-43e0-8d2e-5af02d69d0ea")
+	)
+	(fp_line
+		(start 0.44 -0.44)
+		(end 0.44 0.44)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a26d712d-a812-4f21-b29e-e47afb909553")
+	)
+	(fp_line
+		(start 0.44 0.44)
+		(end -0.44 0.44)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7ac718f-872a-4966-b186-1ee973d30ccb")
+	)
+	(fp_poly
+		(pts
+			(xy -0.44 -0.44) (xy -0.69 -0.44) (xy -0.44 -0.69) (xy -0.44 -0.44)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "cf40cbfa-1bed-4aa8-97fe-f02a89910102")
+		(uuid "8a6bebc7-f4aa-49e0-853b-7e7b7e193ad1")
 	)
 	(fp_rect
-		(start -0.5 -0.5)
-		(end 0.5 0.5)
+		(start -0.55 -0.55)
+		(end 0.55 0.55)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -76,54 +117,54 @@
 		(uuid "a02ea9af-01c8-491d-8e19-8270b6eb3544")
 	)
 	(fp_line
-		(start -0.379 -0.1895)
-		(end -0.1895 -0.379)
+		(start -0.33 -0.1)
+		(end -0.33 0.33)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "becc04f9-af11-446d-91b7-283d2fdea8d9")
+		(uuid "aa6619c4-b920-43a9-9bf9-d684dee0a356")
 	)
 	(fp_line
-		(start -0.379 0.379)
-		(end -0.379 -0.1895)
+		(start -0.33 -0.1)
+		(end -0.1 -0.33)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8ff1423b-73d5-44f6-b110-4da94c4990e5")
+	)
+	(fp_line
+		(start -0.33 0.33)
+		(end 0.33 0.33)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f49bb2f9-4439-42fd-b5c1-ab5d15bff6bd")
+		(uuid "0c92e7a2-90a7-4a5f-a3a2-022529196a14")
 	)
 	(fp_line
-		(start -0.1895 -0.379)
-		(end 0.379 -0.379)
+		(start -0.1 -0.33)
+		(end 0.33 -0.33)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a89f58da-55fc-4b35-af96-4c827ace65b7")
+		(uuid "5837b9b0-6e96-4fab-8546-07be68df805f")
 	)
 	(fp_line
-		(start 0.379 -0.379)
-		(end 0.379 0.379)
+		(start 0.33 -0.33)
+		(end 0.33 0.33)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "f5cb6e23-304c-44b9-9457-13a968d7ce0d")
-	)
-	(fp_line
-		(start 0.379 0.379)
-		(end -0.379 0.379)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7481d6e2-f41d-4efc-a816-496ccf60f47b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -137,35 +178,35 @@
 		)
 	)
 	(pad "A1" smd circle
-		(at -0.2 -0.2)
+		(at -0.175 -0.175)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc59fe23-82f8-48dc-838e-b1a768540c5b")
 	)
 	(pad "A2" smd circle
-		(at 0.2 -0.2)
+		(at 0.175 -0.175)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9e58332c-f908-437b-b1c0-d8872d353b63")
 	)
 	(pad "B1" smd circle
-		(at -0.2 0.2)
+		(at -0.175 0.175)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2e26d1d5-0fb4-48b0-88e5-1d8b972208b0")
 	)
 	(pad "B2" smd circle
-		(at 0.2 0.2)
+		(at 0.175 0.175)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bc957e05-175b-4fdd-bb17-10a6af54a0b5")
 	)
 	(embedded_fonts no)
-	(model "${GLOBAL_LIBRARY}/3d_models/TCK107AG.stp"
+	(model "${KICAD8_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_PicoStar_BGA-4_0.758x0.758mm_Layout2x2_P0.4mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

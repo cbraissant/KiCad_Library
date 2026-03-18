@@ -1,4 +1,4 @@
-(footprint "USB_C_Receptacle_G-Switch_GT-USB-7100A"
+(footprint "USB_C_Receptacle_G-Switch_GT-USB-7100A_1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "USB_C_Receptacle_G-Switch_GT-USB-7100A"
+	(property "Value" "USB_C_Receptacle_G-Switch_GT-USB-7100A_1"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,6 +55,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -5 1.2)
+		(end -5 2.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "871db9a7-5c51-48b0-9cba-72f0a1e2323d")
+	)
+	(fp_line
 		(start -3.4 -5)
 		(end -3.4 -4.85)
 		(stroke
@@ -75,6 +85,26 @@
 		(uuid "5f65849e-6920-4c87-98d8-600aa0c7d3c3")
 	)
 	(fp_line
+		(start 5 1.2)
+		(end 5 2.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e730eb3a-7c9b-4904-aa61-e5b30a31320d")
+	)
+	(fp_line
+		(start -3 3.3)
+		(end 3 3.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8ac11a6d-0676-49e7-b8e2-c58110796380")
+	)
+	(fp_line
 		(start -5.25 0.3)
 		(end -4.95 0.3)
 		(stroke
@@ -85,7 +115,7 @@
 		(uuid "8b0601e3-aae6-4b71-8395-1d1c75a8449a")
 	)
 	(fp_line
-		(start -4.95 -2.750001)
+		(start -4.95 -3)
 		(end -4.95 -0.3)
 		(stroke
 			(width 0.05)
@@ -126,7 +156,7 @@
 	)
 	(fp_line
 		(start 0 -3.2)
-		(end -4.5 -3.2)
+		(end -4.75 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -136,7 +166,7 @@
 	)
 	(fp_line
 		(start 0 -3.2)
-		(end 4.500001 -3.2)
+		(end 4.75 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -145,7 +175,7 @@
 		(uuid "6db4a9b8-ba8e-4612-9bef-5448e86b93cc")
 	)
 	(fp_line
-		(start 4.95 -2.75)
+		(start 4.95 -3)
 		(end 4.95 -0.3)
 		(stroke
 			(width 0.05)
@@ -206,26 +236,26 @@
 		(uuid "f082ac20-39e1-42a9-8140-7a3812951ad7")
 	)
 	(fp_arc
-		(start -4.95 -2.75)
-		(mid -4.976385 -3.226385)
-		(end -4.5 -3.2)
+		(start -4.95 -3)
+		(mid -5.091421 -3.341421)
+		(end -4.75 -3.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3f48247c-dc66-4843-9a72-606c79e3aaf5")
+		(uuid "0a969691-7db5-4a88-8848-f7f626855393")
 	)
 	(fp_arc
-		(start 4.5 -3.2)
-		(mid 4.976385 -3.226385)
-		(end 4.95 -2.75)
+		(start 4.75 -3.2)
+		(mid 5.091421 -3.341421)
+		(end 4.95 -3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9016dea8-e5eb-4ebf-9d5d-84682317a1fe")
+		(uuid "763dab14-5207-43f7-995e-be203d46d740")
 	)
 	(fp_arc
 		(start 5.25 -0.3)
@@ -239,8 +269,8 @@
 		(uuid "77342fc3-30c0-4b68-88a8-52976f34a47b")
 	)
 	(fp_line
-		(start -6.4 -3.6)
-		(end -6.4 2)
+		(start -6.6 -3.6)
+		(end -6.6 2.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -249,8 +279,8 @@
 		(uuid "0e44da80-bcdc-4faf-8bb3-6366f2752c98")
 	)
 	(fp_line
-		(start -6.4 2)
-		(end 6.4 2)
+		(start -6.6 2.4)
+		(end 6.6 2.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -259,8 +289,8 @@
 		(uuid "a1fa5ba2-1242-4aad-9b47-5bc91a51256e")
 	)
 	(fp_line
-		(start -3.3 -4.9)
-		(end -3.3 -3.6)
+		(start -3.8 -5.2)
+		(end -3.8 -3.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -269,8 +299,8 @@
 		(uuid "a08cf40d-f810-4125-ad15-0e0b1a209fda")
 	)
 	(fp_line
-		(start -3.3 -3.6)
-		(end -6.4 -3.6)
+		(start -3.8 -3.6)
+		(end -6.6 -3.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -279,8 +309,8 @@
 		(uuid "4b37c234-869c-42e8-82cc-a6ea5367f93c")
 	)
 	(fp_line
-		(start 3.3 -4.9)
-		(end -3.3 -4.9)
+		(start 3.8 -5.2)
+		(end -3.8 -5.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -289,8 +319,8 @@
 		(uuid "3c336af9-b039-418b-9544-bb20dfecf5bb")
 	)
 	(fp_line
-		(start 3.3 -3.6)
-		(end 3.3 -4.9)
+		(start 3.8 -3.6)
+		(end 3.8 -5.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -299,8 +329,8 @@
 		(uuid "22fe6f64-46fa-4163-b875-d4edd73d45f3")
 	)
 	(fp_line
-		(start 6.4 -3.6)
-		(end 3.3 -3.6)
+		(start 6.6 -3.6)
+		(end 3.8 -3.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -309,14 +339,27 @@
 		(uuid "5857405b-0e91-4fee-b9ff-daef0aeb9208")
 	)
 	(fp_line
-		(start 6.4 2)
-		(end 6.4 -3.6)
+		(start 6.6 2.4)
+		(end 6.6 -3.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
 		(uuid "b5f3bd2e-5573-41ce-9f6c-e37f9b9d8e05")
+	)
+	(fp_text user "PCB Edge"
+		(at -2 3 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "bae37fd0-9be9-46d3-8b35-c35a1d45aff7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.05 7.65 0)
@@ -359,7 +402,7 @@
 		(uuid "280c7cb4-f8e2-4947-a157-41c4da8db43b")
 	)
 	(pad "A12" smd rect
-		(at -5.65 -0.2)
+		(at -5.65 0)
 		(size 1.35 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
@@ -373,7 +416,7 @@
 		(uuid "91b8366a-311e-46b9-8c5c-3499bf917468")
 	)
 	(pad "A12" smd rect
-		(at 5.65 -0.2)
+		(at 5.65 0)
 		(size 1.35 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
