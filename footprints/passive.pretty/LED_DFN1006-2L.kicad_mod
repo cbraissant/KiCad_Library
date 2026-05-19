@@ -1,14 +1,14 @@
 (footprint "LED_DFN1006-2L"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "LED")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "3e2eb39a-8f83-4bf0-baee-147e929c0301")
+		(uuid "1e7d6ee8-aa6e-4ba4-8cfb-7ce0bbd5ec02")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED_DFN1006-2L"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "92c7b6ee-4ffe-4237-9af9-372369efab45")
+		(uuid "48dd08a8-0a27-4eb1-93ef-aa09f10ff5ee")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a13f4b39-89ab-4d26-b8e7-0c48370a451b")
+		(uuid "bcf26e0d-d58c-4670-802d-79651bd44df0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b801c9cb-e15d-4083-9b73-fc3377e87af8")
+		(uuid "715f9f1b-9511-4e82-a962-72db912d8031")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.7 -0.3)
 		(end -0.7 0.3)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4d41af71-b67c-475f-afcf-bc33f660dc97")
+		(uuid "4273b9a4-b481-42b0-8998-83058ef96644")
 	)
 	(fp_rect
 		(start -0.7 -0.4)
@@ -71,7 +72,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9bfe225a-88e3-44c5-b3a3-05b75532e515")
+		(uuid "8dcbf2dc-76f2-4335-ac8d-9be882dda3b8")
 	)
 	(fp_line
 		(start -0.2 -0.3)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d1daeba7-1c79-40ca-a138-8291e2aeffe8")
+		(uuid "87db4baf-54e2-472b-8673-84035f76574b")
 	)
 	(fp_rect
 		(start -0.5 -0.3)
@@ -92,12 +93,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "33a90efd-6b10-47c8-9a88-d1077e348942")
+		(uuid "e8a36aaf-7e6c-45cc-a9ca-6bebe6848dd9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "e2f89ac5-6bdc-404c-b5bd-755c85ff59ec")
+		(uuid "1e9aaae6-dd77-4800-a852-2924dc44ca53")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -110,17 +111,17 @@
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
-		(uuid "ee3a92c4-d796-4b12-8dbe-71dd86438ed5")
+		(uuid "2fc115fa-1151-423c-9d28-0e42927518c3")
 	)
 	(pad "2" smd roundrect
 		(at 0.35 0)
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
-		(uuid "c6aea403-fc0e-4d47-8b79-5b1ef50043af")
+		(uuid "04a02591-a05e-4d53-8d08-142f742c0fe2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+	(model "C:/Users/Chris/Documents/_EPFL/_Projects/Blops/library/electrical/DFN-1006-2.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -128,7 +129,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

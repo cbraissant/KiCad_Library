@@ -201,9 +201,20 @@
 			)
 		)
 		(symbol "Button_switch_SPDT_132_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.016 0)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -214,20 +225,8 @@
 				)
 			)
 			(circle
-				(center -0.762 0)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 0.254) (xy 0.508 1.016)
-				)
+				(center 2.032 2.54)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -237,43 +236,8 @@
 				)
 			)
 			(circle
-				(center 0.762 1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0.762 -1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 1.27) (xy 1.27 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 -1.27) (xy 1.27 -1.27)
-				)
+				(center 2.032 -2.54)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -285,8 +249,8 @@
 		)
 		(symbol "Button_switch_SPDT_132_1_1"
 			(rectangle
-				(start -1.27 2.54)
-				(end 1.27 -2.54)
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -296,8 +260,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "C"
 					(effects
 						(font
@@ -314,8 +278,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 -6.35 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -332,8 +296,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 1.27 180)
-				(length 1.27)
+				(at 5.08 2.54 180)
+				(length 2.54)
 				(name "B"
 					(effects
 						(font
@@ -350,8 +314,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -1.27 180)
-				(length 1.27)
+				(at 5.08 -2.54 180)
+				(length 2.54)
 				(name "A"
 					(effects
 						(font
@@ -360,6 +324,139 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Conn_01x02_Pole"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x02_Pole"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, 01x02, pole"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x02_Pole_0_1"
+			(circle
+				(center -1.778 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.778 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
