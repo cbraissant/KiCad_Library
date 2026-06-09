@@ -1,14 +1,14 @@
 (footprint "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments PicoStar - 0.15 mm max height, 0.758x0.758mm, 4 Ball, 2x2 Layout, 0.4mm Pitch, https://www.ti.com/lit/ds/symlink/tmp114.pdf")
 	(tags "BGA 4 0.4 PicoStar")
 	(property "Reference" "REF**"
 		(at -0.2 -2.4 0)
 		(layer "F.SilkS")
-		(uuid "7448024e-bcb2-421f-b1cf-c9439525150f")
+		(uuid "78f0ab52-11d4-41a7-a090-c17e5fd857ac")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "BGA-4_0.79x0.79mm_Layout2x2_P0.4mm"
 		(at 0 1.379 0)
 		(layer "F.Fab")
-		(uuid "32e4429b-a72e-4b3d-a26f-618403c5d617")
+		(uuid "8823820e-2e30-4817-9a33-6f240f06fab8")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a66866d8-0f7d-47cf-a7c4-e9374f4f1802")
+		(uuid "786db2ee-8b9b-45dc-a2cc-6a70ab2539f6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5130e724-386d-4a1a-b9b2-f9d08b01b8c0")
+		(uuid "9b6a9943-ba11-452e-af77-c37b30cae3d2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,16 +53,26 @@
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
-	(fp_circle
-		(center -0.45 -0.45)
-		(end -0.45 -0.55)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 -0.3)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
-		(fill yes)
 		(layer "F.SilkS")
-		(uuid "cf40cbfa-1bed-4aa8-97fe-f02a89910102")
+		(uuid "eb8ab369-604b-4252-beb3-a3aabdf83a78")
+	)
+	(fp_line
+		(start -0.3 -0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8527e7b-6821-4087-a34a-3ce132b561a0")
 	)
 	(fp_rect
 		(start -0.5 -0.5)
@@ -73,7 +83,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a02ea9af-01c8-491d-8e19-8270b6eb3544")
+		(uuid "c08bdf9c-1dca-4367-8651-3af7f5eea001")
 	)
 	(fp_line
 		(start -0.379 -0.1895)
@@ -83,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "becc04f9-af11-446d-91b7-283d2fdea8d9")
+		(uuid "b07773a2-bf3d-4f74-a771-24e033d64ef4")
 	)
 	(fp_line
 		(start -0.379 0.379)
@@ -93,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f49bb2f9-4439-42fd-b5c1-ab5d15bff6bd")
+		(uuid "4be064d7-2027-461c-97fc-dde94b609919")
 	)
 	(fp_line
 		(start -0.1895 -0.379)
@@ -103,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a89f58da-55fc-4b35-af96-4c827ace65b7")
+		(uuid "d014e84c-c637-4998-b49f-b9d384834019")
 	)
 	(fp_line
 		(start 0.379 -0.379)
@@ -113,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f5cb6e23-304c-44b9-9457-13a968d7ce0d")
+		(uuid "cf3042a0-e943-4244-a17a-81a9d9c4a577")
 	)
 	(fp_line
 		(start 0.379 0.379)
@@ -123,12 +133,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7481d6e2-f41d-4efc-a816-496ccf60f47b")
+		(uuid "6de6302f-ea62-4807-bbd9-39660d2cb634")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8fabfdce-d88a-42db-a213-98f8fe816e8c")
+		(uuid "d60abefa-b427-41a4-b4cb-5b50e1b94bff")
 		(effects
 			(font
 				(size 0.18 0.18)
@@ -141,28 +151,28 @@
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bc59fe23-82f8-48dc-838e-b1a768540c5b")
+		(uuid "8c9c1e3e-59e9-41fb-a444-0629c8d24c3a")
 	)
 	(pad "A2" smd circle
 		(at 0.2 -0.2)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9e58332c-f908-437b-b1c0-d8872d353b63")
+		(uuid "dd3012e1-b79e-40b4-adbd-f56018d706d1")
 	)
 	(pad "B1" smd circle
 		(at -0.2 0.2)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2e26d1d5-0fb4-48b0-88e5-1d8b972208b0")
+		(uuid "d5c8d659-fae4-4f4d-b930-51800cec5177")
 	)
 	(pad "B2" smd circle
 		(at 0.2 0.2)
 		(size 0.25 0.25)
 		(property pad_prop_bga)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bc957e05-175b-4fdd-bb17-10a6af54a0b5")
+		(uuid "cefb69b0-2c8c-42bf-87ae-970ea3f7375c")
 	)
 	(embedded_fonts no)
 	(model "${GLOBAL_LIBRARY}/3d_models/TCK107AG.stp"

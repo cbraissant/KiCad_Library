@@ -1,14 +1,14 @@
 (footprint "Crystal_SMD_1610-2Pin_1.6x1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package")
 	(tags "SMD SMT crystal")
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
 		(layer "F.SilkS")
-		(uuid "8c899c9e-930c-49d4-9130-891898061c8d")
+		(uuid "5522ee7c-afc4-4b5f-bc02-2682566aec81")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Crystal_SMD_1610-2Pin_1.6x1.0mm"
 		(at 0 1.8 0)
 		(layer "F.Fab")
-		(uuid "04c2dd0d-498c-4063-8dde-0087ad429217")
+		(uuid "8699efa1-66c1-48af-aaa2-fc67e5906df8")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3d8fe5f5-3467-4275-9b5d-6a4cce83b1f7")
+		(uuid "5990be8b-a506-4000-9bad-dea960b2f0ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "568df67c-8329-4082-b120-03b3afff8ce8")
+		(uuid "0bc94318-50fb-4d50-b4ee-20470d3f94f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,35 +54,16 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.9 -0.6)
-		(end -0.9 0.6)
+		(start -1 -0.4)
+		(end -1 0.4)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a4fc421-25be-4c4d-aa2d-3ef5862271e2")
-	)
-	(fp_line
-		(start -0.9 0.6)
-		(end 0.9 0.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b403e83a-a793-451f-865c-2b2565525801")
-	)
-	(fp_line
-		(start 0.9 -0.6)
-		(end -0.9 -0.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "afaf8616-5c4d-4de8-a881-6ce4a03cb2d3")
+		(uuid "953f2938-40c1-49d0-8d44-b34ac22f4b84")
 	)
 	(fp_rect
 		(start -1 -0.7)
@@ -93,7 +74,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "18841757-e956-4cb9-9047-08d7d1bb5d1e")
+		(uuid "386ac883-fe40-477b-be8e-71495c0f7eb4")
 	)
 	(fp_line
 		(start -0.8 0.1)
@@ -103,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "30b66780-37d8-4e7c-9d42-0eb7ab550cdb")
+		(uuid "18c203e3-c49c-400a-80b9-27fc2658ec6c")
 	)
 	(fp_rect
 		(start -0.8 -0.5)
@@ -114,12 +95,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6dfee10c-253c-4360-acc0-8c454c04d485")
+		(uuid "37e03f66-05c1-431b-bad7-d7f898b1615f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "640c8078-617b-4c67-a55e-4c829eba4d3b")
+		(uuid "36c64aca-37bc-452a-bd88-ad8afc0bd9d3")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -131,16 +112,16 @@
 		(at -0.55 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7b332b34-24e3-47f2-9f43-bea60c75cb17")
+		(uuid "d18efa03-9d0c-4fac-a997-549ce0598b24")
 	)
 	(pad "2" smd rect
 		(at 0.55 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "03d942f7-f1ca-4a32-8ea3-adff6524da8b")
+		(uuid "72cf5c9b-6369-4b9b-a136-8cf4f6df619a")
 	)
 	(embedded_fonts no)
-	(model "${ORAONE_LIBRARY}/3d_models/Crystal_SMD_1610-2Pin_1.6x1.0mm.STEP"
+	(model "${GLOBAL_LIBRARY}/3d_models/Crystal_SMD_1610-2Pin_1.6x1.0mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

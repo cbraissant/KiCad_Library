@@ -1,14 +1,14 @@
 (footprint "L_0603_1608Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 	(tags "inductor")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "5af54946-ceb4-43e4-8e62-8cd30ccbd961")
+		(uuid "b80b1e31-fa4b-46fd-8105-658745950b1b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_0603_1608Metric"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "d85abb56-238c-42a9-931b-b9ef0bb74bc0")
+		(uuid "7e926891-3d7c-4d50-a0e3-36d4ee6955e9")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf77c2db-4710-4fce-b8b6-101e2aec8afa")
+		(uuid "3ee487c3-d7f6-41ea-8477-42a7c1f476e9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37d6154b-56c6-4fb6-aa6d-24d19ccf86e6")
+		(uuid "be7a3579-7674-4a96-b3b3-91aedfffd323")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,26 +52,7 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.2 -0.4)
-		(end 0.2 -0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c2e8ff50-38b4-4a92-b32f-d2d99791cfcb")
-	)
-	(fp_line
-		(start -0.2 0.4)
-		(end 0.2 0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a1f3149a-a3ba-4431-abae-75dc90e931f8")
-	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.25 -0.55)
 		(end 1.25 0.55)
@@ -81,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "fafeae8f-4ca2-43d1-a781-6301ba691ff7")
+		(uuid "45b567dd-7309-4670-914a-8893c37c427b")
 	)
 	(fp_rect
 		(start -0.8 -0.4)
@@ -92,12 +73,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "af5749a9-4bde-42dc-95b5-c686ecb436cc")
+		(uuid "11a9ac22-e1b9-4da1-b7fb-88f4dd2d527c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b2b45cfb-c0d1-4195-bb2e-fe6fb4c581b4")
+		(uuid "a1149332-6de0-4595-91c6-6a764eb7702c")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -110,14 +91,14 @@
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "d2c8491d-2540-4cf8-9f5b-cb430ba4c89f")
+		(uuid "475a1c27-551b-4804-ae80-4bfe2736ac4f")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.8 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "9a66d77a-9a85-4a3d-a388-f4091add3dac")
+		(uuid "3741c5ee-f699-47da-a840-55815675c923")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
